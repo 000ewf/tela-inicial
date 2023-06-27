@@ -1,0 +1,58 @@
+body{
+    background-color: #303030;
+   
+}
+main{
+    display: flex;
+    
+    width: 428px;
+    height: 916px;
+    background-color: #303030;
+    background-image: url(images/20230303_194551.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    max-width:428px;
+    max-height:926px;
+    border-radius: 50px;
+
+}
+.navigation{
+    display: flex ;
+    margin-left: 15px;
+    color:aliceblue;
+    justify-content: space-around;
+    align-items: normal;
+}
+ .wifi{
+    
+    margin-left: 10px;
+ }
+.bateria{margin-left: 260px;}
+.navigation > img{
+    display: flex;
+    margin-top: 10px;
+    padding : 7px;
+    width: 15px;
+    height: 15px;
+  
+    
+    
+}
+
+.apps{
+    margin-top: 826px;
+    margin-left: 10px;
+    position: absolute;
+    height: 84px;
+    width: 406px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(116, 116, 116, 0.15) 0%, rgba(217, 217, 217, 0.00) 100%);
+    backdrop-filter: blur(18px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    
+}
